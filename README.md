@@ -14,11 +14,7 @@ used as combine.csv file.
 
 ## Model
 
-The model predicts the daily movement of the Dow Jones Industrial Average (DJIA).  The task is formulated as a binary classification task:
-- `0` when DJIA Adj Close value decreased
-- `1` when DJIA Adj Close value rose or stayed as the same
-
-The model was found to have ~95% accuracy when analyzing news from the same day. When forecasting tomorrows market movements, accuracy fall to under 60%
+We have fine-tuned the BERT model with live tweets and Kaggle data to predict positive, negative or neutral sentiment. The model was able to achieve 72% accuracy. The LSTM model takes two inputs from both Bert and dataset set provided and data without sentiments predicts the output based on sentiment and without sentiment.
 
 ## Architecture
 
