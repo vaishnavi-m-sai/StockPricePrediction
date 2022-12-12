@@ -18,5 +18,5 @@ All the necessary files need to be uploaded and executed. The libraries required
 
 ##Conclusion
 
-The project
+The output consists of graphs which depicts the the closing prices when tweets sentiment is used and prices when sentiment is not used. We can infer that 
 
