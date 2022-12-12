@@ -16,7 +16,7 @@ We have fine-tuned the BERT model with live tweets and Kaggle data to predict po
 
 All the necessary files need to be uploaded and executed. The libraries required are already imported in this project.
 
-##Conclusion
+## Conclusion
 
 The output consists of graphs which depicts the the closing prices when tweets sentiment is used and prices when sentiment is not used. We can infer that 
 
