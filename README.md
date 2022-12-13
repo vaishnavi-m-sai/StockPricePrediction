@@ -6,7 +6,7 @@ This package applies natural language processing on real time tweets to analyze 
 
 ## Data
 
-We have scrapped the tweets real time and Appletweets.csv file for training and testing the model. The datasets are all attached in this git.
+We have scrapped the tweets real time and saved it as  Appletweets.csv file for training and testing the model. You can either scrape the data or directly load the data file and start runung by excluding the scrapping code. The datasets are all attached in this git.
 For LSTM model we have used the kaggle(https://www.kaggle.com/datasets/berkayalan/apple-stock-data-between-2015-and-2022?resource=download%5C) which consists of opening,closing,volume and date features. the sentiment and the stocks data are merged and 
 used as combine.csv file.
 
